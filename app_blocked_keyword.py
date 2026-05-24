@@ -33,7 +33,16 @@ def should_skip_job(title: str, description: str, skills: str) -> bool:
     Keywords are defined directly inside the Python script.
     """
     blocked_keywords = [
-        
+        'virtual assistant',
+        'graphic design',
+        'social media',
+        'data entry',
+        'facebook advertising',
+        'lead generation',
+        'microsoft excel',
+        'google ads',
+        'adobe Pphotoshop',
+        'illustration',
     ]
 
     text = f"{title} {description} {skills}".lower()
